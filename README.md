@@ -1,2 +1,2 @@
 # Team-fierce-ENVATO-online-school
-A Project ENVATO template implementation
+A Project ENVATO "ONLINE SCHOOL" template implementation
