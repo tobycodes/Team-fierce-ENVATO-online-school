@@ -24,7 +24,7 @@
     height: 50vh;
 }
 
-
+ /* contact page media query by @Kunle */
 @media only screen and (max-width: 600px) {
     .vertical {
       border-right: 0px;
