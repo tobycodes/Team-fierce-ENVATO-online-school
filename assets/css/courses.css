@@ -1,0 +1,90 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+nav a, nav h5 {
+    color: #2F2E2E;
+}
+
+#main-content {
+    position: relative;
+    min-height: 600px; 
+}
+.image1{
+    background: url('../images/happy-ethnic-woman-sitting-at-table-with-laptop-3769021.jpg') no-repeat center center;
+}
+.image2{
+    background: url('../images/three-persons-sitting-on-the-stairs-talking-with-each-other-1438072.jpg') no-repeat center center;
+}
+.jumbotron{ 
+    background-size: cover;
+    height: 500px;
+}
+.jumbotron h1{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 130px;
+}
+.overlay {
+    background-color: rgba(37, 139, 234, 0.4);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 83.5%;
+}
+
+#courses-content{
+    margin-top: 20px;
+}
+#courses-content h5{
+    color: #453232;   
+}
+#level{
+    font-size: 25px;
+    font-weight: 500;
+    padding-left: 1em;
+}
+#path{
+    font-size: 13px;
+    color: #978686;
+}
+#course-list{
+    margin-bottom: 72px;
+}
+#course-list .card{
+    box-shadow: 30.2442px 30.2442px 77.3895px rgba(0, 0, 0, 0.1);
+}
+#course-list img{
+    height: 266.33px;
+}
+#newsletter-section{
+    width: 100%;
+    height: 250px;
+    padding-top: 50px;
+    background: #ABD5FD;
+}
+#section-divider p{
+    font-weight: 500;
+    font-size: 50px;
+
+}
+
+@media only screen and (max-width: 777px) {
+    #courses-content h5{
+      margin-bottom: 20px;
+    }
+    .jumbotron{ 
+      width: 100vw;
+      height: 50%;
+    }
+    .jumbotron h1{ 
+      font-size: 4em;
+    }
+    #section-divider p{
+      font-size: 1.5em;
+    }
+    .card{
+      margin: 20px auto;
+    }
+}
