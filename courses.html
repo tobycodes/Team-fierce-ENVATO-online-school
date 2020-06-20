@@ -12,29 +12,55 @@
     <link rel="stylesheet" href="custom.css">
     <link rel="stylesheet" href="courses.css">
     <link rel="stylesheet" href="Pages/css/responsive.css">
-    <title>Contact Page</title>
+    <title>Courses Page</title>
 </head>
 
 <body>
     <!-- Navbar Section -->
-        <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 bg-white border-bottom shadow-sm">
-            <h5 class="my-0 mr-md-auto font-weight-normal"><span class="text-primary">Royal</span> School</h5>
-            <nav class="my-2 my-md-0 mr-md-3">
-              <a class="p-2 ml-5" href="#">About</a>
-              <a class="p-2 ml-5" href="#">Courses</a>
-              <a class="p-2 ml-5" href="#">Teachers</a>
-              <a class="p-2 ml-5" href="#">Contact</a>
-            </nav>
-            <a class="btn btn-primary" href="#">SIGN IN</a>
+    <nav class="navbar navbar-expand-lg navbar-light py-4">
+        <div class="container">
+            <a href="index.html" class="navbar-brand">
+                <h3 class="d-inline align-middle">
+                    <span class="text-primary">Royal</span>School</h3>
+            </a>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link text-primary">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#courses" class="nav-link">Courses</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#facilities" class="nav-link">Facilities</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#teachers" class="nav-link">Teachers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="btn btn-primary" href="#sign-in" role="button">SIGN IN</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-    
+    </nav>
 
+    
     <!-- SHOWCASE -->
     <section id="main-content">
         <!-- Main jumbotron for a primary marketing message or call to action -->
         <div class="jumbotron image1">
             <div class="container">
-                <h1 class="text-center">COURSES</h1>
+                <h1 class="text-center text-white">COURSES</h1>
             </div>
         </div>
 
@@ -43,7 +69,7 @@
                 <p id="path">Home > courses</p>
                 <h5 class="text-center">BROWSE THROUGH OUR COURSES RIGHTLY MADE FOR YOU</h5>
                 <!-- Beginner section -->
-                <p>Beginner</p>
+                <p id="level">Beginner</p>
                 <div class="row" id="course-list">
                     <div class="col-md-6 col-lg-4">
                         <div class="card" style="width: 18rem;">
@@ -86,7 +112,7 @@
                     </div>
                 </div>
                 <!-- Intermediate section -->
-                <p>Intermediate</p>
+                <p id="level">Intermediate</p>
                 <div class="row" id="course-list">
                     <div class="col-md-6 col-lg-4">
                         <div class="card" style="width: 18rem;">
@@ -132,58 +158,55 @@
             </div>
 
             <!-- Main jumbotron for a primary marketing message or call to action -->
-            <div class="jumbotron image2">
+            <div class="jumbotron image2" id="section-divider">
                 <div class="container">
-                    <h1 class="text-center">COURSES</h1>
+                    <p class="text-center text-white">SIGN UP NOW FOR 30% DISCOUNT ON ALL OUR COURSES</p>
                 </div>
             </div>
 
-            <div id="courses-content">
-                <div class="container">
-                    <!-- Expert section -->
-                    <p>Expert</p>
-                    <div class="row" id="course-list">
-                        <div class="col-md-6 col-lg-4">
-                            <div class="card" style="width: 18rem;">
-                                <img src="Pages/img/people-inside-room-3184468.jpg" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                  <h5 class="card-title">MATHEMATICS</h5>
-                                  <h6 class="card-subtitle mb-2">DURATION: 6 weeks</h6>
-                                  <p class="card-text text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sollicitudin vitae amet aliquam dolor</p>
-                                  <div class="text-center mt-5">
-                                    <a href="#" class="btn btn-primary">ENROLL NOW</a>
-                                  </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-lg-4">
-                            <div class="card" style="width: 18rem;">
-                                <img src="Pages/img/unrecognizable-young-craftswoman-cutting-paper-sheet-on-4219519.jpg" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                  <h5 class="card-title">ENGLISH</h5>
-                                  <h6 class="card-subtitle mb-2">DURATION: 6 weeks</h6>
-                                  <p class="card-text text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sollicitudin vitae amet aliquam dolor</p>
-                                  <div class="text-center mt-5">
-                                    <a href="#" class="btn btn-primary">ENROLL NOW</a>
-                                  </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-lg-4">
-                            <div class="card" style="width: 18rem;">
-                                <img src="Pages/img/photo-of-child-sitting-by-the-table-while-looking-at-the-4145153.jpg" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                  <h5 class="card-title">CHEMISTRY</h5>
-                                  <h6 class="card-subtitle mb-2">DURATION: 6 weeks</h6>
-                                  <p class="card-text text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sollicitudin vitae amet aliquam dolor</p>
-                                  <div class="text-center mt-5">
-                                    <a href="#" class="btn btn-primary">ENROLL NOW</a>
-                                  </div>
+            <div class="container">
+                <!-- Expert section -->
+                <p id="level">Expert</p>
+                <div class="row" id="course-list">
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card" style="width: 18rem;">
+                            <img src="Pages/img/people-inside-room-3184468.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">MATHEMATICS</h5>
+                                <h6 class="card-subtitle mb-2">DURATION: 6 weeks</h6>
+                                <p class="card-text text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sollicitudin vitae amet aliquam dolor</p>
+                                <div class="text-center mt-5">
+                                <a href="#" class="btn btn-primary">ENROLL NOW</a>
                                 </div>
                             </div>
                         </div>
                     </div>
-    
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card" style="width: 18rem;">
+                            <img src="Pages/img/unrecognizable-young-craftswoman-cutting-paper-sheet-on-4219519.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">ENGLISH</h5>
+                                <h6 class="card-subtitle mb-2">DURATION: 6 weeks</h6>
+                                <p class="card-text text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sollicitudin vitae amet aliquam dolor</p>
+                                <div class="text-center mt-5">
+                                <a href="#" class="btn btn-primary">ENROLL NOW</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card" style="width: 18rem;">
+                            <img src="Pages/img/photo-of-child-sitting-by-the-table-while-looking-at-the-4145153.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">CHEMISTRY</h5>
+                                <h6 class="card-subtitle mb-2">DURATION: 6 weeks</h6>
+                                <p class="card-text text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sollicitudin vitae amet aliquam dolor</p>
+                                <div class="text-center mt-5">
+                                    <a href="#" class="btn btn-primary">ENROLL NOW</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
 
@@ -191,11 +214,11 @@
                 <div class="container">
                     <h6>Subscribe Now!</h6>
                     <div class="row">
-                        <div class="col-12 col-lg-6">
+                        <div class="col-lg-6">
                             <h2 class="text-white">Subscribe School's Newsletter</h2>
                             <p>Want to get all our latest news, events and promotions?</p>
                         </div>
-                        <div class="col-12 col-lg-6">
+                        <div class="col-lg-6">
                             <form class="form-inline">
                                 <label class="sr-only" for="inlineFormInputName2">Name</label>
                                 <input type="text" class="form-control mb-2 mr-sm-2" id="inlineFormInputName2" placeholder="E-mail">            

@@ -24,7 +24,6 @@ nav a, nav h5 {
     font-style: normal;
     font-weight: 500;
     font-size: 130px;
-    color: #ffffff;
 }
 .overlay {
     background-color: rgba(37, 139, 234, 0.4);
@@ -39,8 +38,12 @@ nav a, nav h5 {
     margin-top: 20px;
 }
 #courses-content h5{
-    color: #453232;
-    
+    color: #453232;   
+}
+#level{
+    font-size: 25px;
+    font-weight: 500;
+    padding-left: 1em;
 }
 #path{
     font-size: 13px;
@@ -60,6 +63,11 @@ nav a, nav h5 {
     height: 250px;
     padding-top: 50px;
     background: #ABD5FD;
+}
+#section-divider p{
+    font-weight: 500;
+    font-size: 50px;
+
 }
     #showcase .primary-overlay {
       background: rgba(44, 44, 44, 0.8);

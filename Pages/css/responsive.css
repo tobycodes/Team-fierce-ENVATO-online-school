@@ -4,12 +4,21 @@
     }
   }
 
-  @media only screen and (min-width: 768px) {
-    .card{
-      margin-bottom: 30px;
-    }
-    
+  @media only screen and (max-width: 777px) {
     #courses-content h5{
       margin-bottom: 20px;
+    }
+    .jumbotron{ 
+      width: 100vw;
+      height: 50%;
+    }
+    .jumbotron h1{ 
+      font-size: 4em;
+    }
+    #section-divider p{
+      font-size: 1.5em;
+    }
+    .card{
+      margin: 20px auto;
     }
   }
