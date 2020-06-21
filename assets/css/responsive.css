@@ -4,6 +4,12 @@
     .vertical {
         border-right: 0px;
     }
+    .push-down {
+        margin-top: 5% !important;
+    }
+    .move-right {
+        float: right;
+    }
 
     /* about page media query by @gblend */
     .lg {
