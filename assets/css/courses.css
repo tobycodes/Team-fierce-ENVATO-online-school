@@ -18,6 +18,7 @@ nav a, nav h5 {
 .jumbotron{ 
     background-size: cover;
     height: 500px;
+    padding: 0px;
 }
 .jumbotron h1{
     font-family: 'Montserrat', sans-serif;
@@ -27,23 +28,36 @@ nav a, nav h5 {
 }
 .overlay {
     background-color: rgba(37, 139, 234, 0.4);
-    position: absolute;
+    position: relative;
+    width: 100%;
+    height: 100%;
     top: 0;
     left: 0;
-    width: 100%;
-    height: 83.5%;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
 }
+
+.overlay-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: white;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+  }
 
 #courses-content{
     margin-top: 20px;
 }
 #courses-content h5{
     color: #453232;   
+    
 }
 #level{
     font-size: 25px;
     font-weight: 500;
-    padding-left: 1em;
+    /* padding-left: 1em; */
 }
 #path{
     font-size: 13px;
@@ -67,24 +81,71 @@ nav a, nav h5 {
 #section-divider p{
     font-weight: 500;
     font-size: 50px;
-
 }
 
-@media only screen and (max-width: 777px) {
-    #courses-content h5{
-      margin-bottom: 20px;
-    }
-    .jumbotron{ 
-      width: 100vw;
-      height: 50%;
+@media (max-width: 991px) and (min-width: 778px) {
+    .jumbotron{
+        height: 400px;
     }
     .jumbotron h1{ 
-      font-size: 4em;
-    }
-    #section-divider p{
-      font-size: 1.5em;
+        font-size: 6em;
     }
     .card{
-      margin: 20px auto;
+        margin: 20px auto;
+    }
+    #section-divider p{
+        font-size: 2.4em;
+    }
+    .form-inline .form-control{
+        width: 70%;
+    }
+    div[title="third"]{
+        display: none;
+    }
+}
+
+@media (max-width: 777px)and (min-width: 561px) {
+    .jumbotron{
+        height: 300px;
+    }
+    .jumbotron h1{ 
+        font-size: 5em;
+    }
+    .card{
+        margin: 20px auto;
+    }
+    #courses-content h5{
+        margin-bottom: 20px;
+        font-size: 0.9rem;
+    }
+    #section-divider p{
+        font-size: 1.5em;
+    }
+    .form-inline .form-control{
+        width: 70%;
+    }
+    div[title="third"]{
+        display: none;
+    }
+}
+@media (max-width: 560px)and (min-width: 0px) {
+    .jumbotron{
+        height: 200px;
+    }
+    .jumbotron h1{ 
+        font-size: 3em;
+    }
+    .card{
+        margin: 20px auto;
+    }
+    #courses-content h5{
+        font-size: 0.9rem;
+    }
+    #section-divider p{
+        font-size: 1.3em;
+    }
+    #newsletter-section{
+        width: 100%;
+        height: 100%;
     }
 }
