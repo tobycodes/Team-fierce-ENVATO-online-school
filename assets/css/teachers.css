@@ -1,0 +1,489 @@
+/* MINIMUM CUSTOM STYLES FOR TEACHERS PAGE*/
+
+/* DEFAULT FONT SETTINGS ON BODY */
+body {
+    font-family: 'Shanti', sans-serif;
+    background-color: #FFF !important;
+}
+
+/* ANIMATIONS */
+@keyframes fadeIn {
+    0% {
+        opacity: .1;
+    }
+
+    50% {
+        opacity: .5;
+    }
+
+    100% {
+        opacity: .9;
+    }
+}
+
+
+/* NAVIGATION STYLING */
+.navbar-brand {
+    color: #2F2E2E !important;
+}
+
+.navbar-brand span {
+    font-family: 'Sitka Banner', sans-serif;
+    color: #258ae9;
+}
+
+.nav-link {
+    color: #2F2E2E !important;
+}
+
+.nav-link:hover {
+    color: #258BEA !important;
+}
+
+.nav-link.active {
+    color: #258BEA !important;
+}
+
+.navbar-toggler, .navbar-toggler:active, .navbar-toggler:focus {
+    border: none;
+    outline: none;
+    padding: 0;
+}
+
+.navbar-toggler-icon, .navbar-toggler-icon::before, .navbar-toggler-icon::after {
+    width: 2.3em;
+    height: .2em;
+    background-color: #258BEA;
+    border-radius: 3px;
+    display: block;
+    position: relative;
+}
+
+.navbar-toggler-icon::before, .navbar-toggler-icon::after {
+    content: "";
+    position: absolute;
+}
+
+.navbar-toggler-icon::before {
+    top: -.5em;
+}
+
+.navbar-toggler-icon::after {
+    bottom: -.5em;
+}
+
+@media only screen and (min-width: 992px) {
+    .navbar-expand-lg .navbar-collapse {
+        justify-content: flex-end;
+    }
+}
+
+
+/*HERO STYLING */
+.hero {
+    height: 85vh;
+    background-image: linear-gradient(to right, rgba(171, 213, 253, .3), rgba(171, 213, 253, .3)), url(../images/hero-desktop.png);
+    background-size: cover;
+    background-position: center;
+    background-color: #F4F4F4;
+    position: relative;
+}
+
+.heading {
+    color: #fff;
+    font-size: 10rem;
+    text-shadow: 2px 5px 3px rgba(0, 0, 0, .2);
+    position: absolute;
+    top: 46%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+
+    
+}
+
+.heading-head {
+    text-shadow: none;
+    background-color: #258ae9;
+}
+.heading-tail {
+    display: block;
+    font-family: 'Sitka Banner', sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+    line-height: .2;
+
+}
+
+@media only screen and (max-width:991px) {
+    .heading {
+        font-size: 8rem;
+        top: 55%;
+    }
+}
+
+@media only screen and (max-width:820px) {
+    .hero {
+        background-position-x: 30%;
+    }
+    .heading {
+        font-size: 6rem;
+        top: 65%;
+        line-height: 1.5 !important;
+
+    }
+    .heading-head {
+        font-size: 2.2rem;
+    }
+}
+
+@media only screen and (max-width:575px) {
+    .hero {
+        background-image: linear-gradient(to right, rgba(171, 213, 253, .3), rgba(171, 213, 253, .3)), url(../images/hero-mobile.png);
+        background-position: center;
+    }
+    .heading {
+        font-size: 4.8rem;
+        top: 68%;
+    }
+
+    .heading-head {
+        font-size: 2rem;
+    }
+    .heading-tail {
+        line-height: .8!important;
+    }
+}
+
+
+/*TEACHERS SECTION STYLING */
+
+.teachers .col {
+    padding: 0 !important;
+    transition: all .5s ease;
+    position: relative;
+}
+
+.info {
+    display: none;
+    transition: all .5s ease;
+    animation: fadeIn .5s ;
+}
+
+.teachers .col:hover {
+    background-image: linear-gradient(to right, rgba(37, 139, 234), rgba(37, 139, 234));
+}
+
+.teachers .col:hover img {
+    opacity: .47;
+    transition: all .5s ease;
+}
+
+.teachers .col:hover .info {
+    display: block;
+}
+
+@media only screen and (max-width: 575px) {
+    .teachers-grid {
+        padding: 30px !important;
+    }
+
+    .row:not(:last-child) {
+        margin-bottom: 12px;
+    }
+
+    .teachers .col:not(:last-child) {
+        margin-bottom: 12px;
+    }
+}
+
+.teacher-info {
+    position: absolute;
+    bottom: 2rem;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 2000;
+    color: #fff;
+}
+
+.teacher-info h3 {
+    font-family: 'Sitka Banner';
+    font-size: 20px;
+    font-weight: bold;
+
+    margin-bottom: 0;
+}
+
+.teacher-info span {
+    margin-bottom: 20px;
+}
+
+[class^="flaticon-"]:before {
+    margin-left: 0px;
+    font-size: 12px;
+}
+
+.icons span {
+    color: #258BEA;
+    background-color: #fff;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.plus {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    width: 18px;
+    height: 18px;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 900;
+    background: #02AE13;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.paginator-desktop {
+    width: 40%;
+    
+}
+
+.paginator-mobile {
+    width: 38%;
+    margin-left: 26vw !important;
+    display: none !important;
+}
+
+@media only screen and (max-width: 991px) {
+    .paginator-desktop {
+        width: 70%;
+    }
+}
+
+
+@media only screen and (max-width: 575px) {
+    .row-second {
+        display: none;
+    }
+    .paginator-desktop {
+        display: none !important;
+    }
+    .paginator-mobile {
+        display: flex !important;
+    }
+}
+  
+.right-arrow {
+    width: 0;
+    height: 0;
+    border-left: 9px solid #fff;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    position: absolute;
+    top: 13px;
+    left: 14.5px;
+}
+
+.left-arrow {
+    width: 0;
+    height: 0;
+    border-right: 9px solid #fff;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    position: absolute;
+    top: 13px;
+    right: 14.5px;
+}
+
+.outer {
+    width: 35px;
+    height: 35px;
+    background-color: #258BEA;;
+    border-radius: 50%;
+    position: relative;
+    cursor: pointer;
+}
+
+.number {
+    font-size: 14px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.number:not(:last-child) {
+    margin-right: 10px;
+}
+
+.number-active {
+    color: #fff;
+    background: #02AE13;
+    border-radius: 3.5px;
+    transition: all .2s;
+}
+
+.number-active:hover {
+    background: #0d911a;
+    
+}
+
+.number-ellipsis {
+    cursor: default;
+}
+
+/* TEACHER DETAILS SECTION STYLING...@tobyscript */
+.teacher-image {
+    height: 18rem;
+    width: 18rem;
+    position: relative;
+}
+
+.teacher-image::before, .teacher-image::after {
+    content: "";
+    width: 90%;
+    height: 90%;
+    display: block;
+    position: absolute;
+    z-index: -10;
+    background-color: #C4C4C4;
+    border: .4rem solid #258BEA;
+}
+
+.teacher-image::before {
+    top: -.5rem;
+    left: -.5rem;
+}
+
+.teacher-image::after {
+    bottom: -.5rem;
+    right: -.5rem;
+}
+
+.teacher-details .sub-text {
+    font-family: 'Sitka Banner', sans-serif;
+    font-size: 1.5rem;
+    line-height: 1.2;
+    color: #000;
+}
+
+.contact-icon span::before {
+    font-size: 1rem !important;
+    color: #258BEA;
+}
+
+.contact-name {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.contact-value {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: .9rem;
+}
+
+.contact-row td {
+    padding-bottom: .4em;
+}
+
+.teacher-paragraph {
+    font-family: 'Sitka Banner', sans-serif;
+    line-height: 1.1;
+    font-size: .9rem;
+    font-weight: 500;
+    color: #000;
+}
+
+.teacher-control {
+    width: 30%;
+}
+
+.teacher-control .icon {
+    border-radius: 50%;
+    width: 1.6rem;
+    height: 1.6rem;
+    color: #fff;
+    background-color: #258BEA;
+    box-shadow: 0px 1.18621px 1.18621px rgba(0, 0, 0, 0.25);
+
+    cursor: pointer;
+
+}
+
+.teacher-control .icon span::before {
+    font-size: .9rem;
+}
+
+@media only screen and (max-width: 575px){
+    .t-wrapper {
+        margin-top: 3.5rem;
+    }
+}
+
+/* NEWSLETTER SECTION STYLING */
+.newsletter {
+    background: #ABD5FD;
+}
+
+.row-newsletter {
+    width: 100%;
+    margin: 0;
+}
+
+.newsletter-text span {
+    font-family: 'Sitka Banner', sans-serif;
+    font-size: 1.4rem;
+}
+
+.newsletter-text h4 {
+    font-family: 'Sitka Banner', sans-serif;
+    font-weight: bold;
+    line-height: 1.1;
+    font-size: 2.2rem;
+    color: #fff;
+    width: 70%;
+}
+
+.form {
+    display: flex;
+    align-self: center;
+}
+
+.form-group {
+    margin-right: .7rem !important;
+}
+
+.form-group input {
+    display: inline-block;
+    width: 17rem !important;
+    border: none;
+}
+
+.form-inline button {
+    background: #258BEA;
+}
+
+@media only screen and (max-width: 991px) {
+    .row-newsletter {
+        text-align: center;
+        flex-direction: column;
+        padding: 2rem 0;
+    }
+    .newsletter-text span {
+        font-size: 1.2rem;
+    }
+    .newsletter-text h4 {
+        width: auto;
+        font-size: 1.8rem;
+    }
+    .form-group input {
+        width: 60vw !important;
+    }
+    form button {
+        font-size: .8rem !important;
+    }
+}
