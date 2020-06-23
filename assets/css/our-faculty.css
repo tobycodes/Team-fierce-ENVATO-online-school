@@ -1,0 +1,281 @@
+body {
+  font-family: 'Shanti', sans-serif !important;
+}
+
+.faculties_list {
+  background-color: #e5e5e5;
+}
+
+/* Breadcrumb start */
+.our_faculties .bg_img {
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(174, 174, 174, 0.45),
+      rgba(174, 174, 174, 0.85)
+    ),
+    url('../images/breadcrumb.png');
+  background-size: cover;
+  background-position: center;
+  padding-bottom: 180px;
+}
+
+.our_faculties h1 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 100px;
+  line-height: 141px;
+  color: #258bea;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  padding-top: 180px;
+}
+
+/* Breadcrumb end */
+
+/* Royal School Faculties List start  */
+.faculties_list p {
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 38px;
+  text-align: center;
+}
+
+.faculties_list a,
+.faculties_list h5 {
+  font-weight: normal;
+  font-size: 20px;
+  color: #258bea;
+}
+
+.faculties_list h5 {
+  font-weight: normal;
+  font-size: 23.0826px;
+  line-height: 1.5;
+  color: #2f2e2e;
+}
+
+.faculties_list .icon {
+  position: relative;
+  top: -40px;
+  left: 220px;
+}
+/* Royal School Faculties List end  */
+
+/* Subscribe Now start */
+.subscribe {
+  background-color: #abd5fd;
+}
+
+.subscribe h5 {
+  font-size: 24px;
+  line-height: 1.5;
+  color: #2f2e2e;
+}
+
+.subscribe .newsletter {
+  font-weight: bold;
+  font-size: 45px;
+  line-height: 1.5;
+  color: #fff;
+}
+
+.subscribe .promotion {
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 1.5;
+}
+/* Subscribe Now end */
+
+/* Faculty of Art start */
+.art_faculty .bg_img {
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(174, 174, 174, 0.45),
+      rgba(174, 174, 174, 0.85)
+    ),
+    url('../images/art.png');
+  background-size: cover;
+  background-position: center;
+  padding-bottom: 180px;
+}
+
+.art_faculty h1 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 112.802px;
+  line-height: 141px;
+  color: #258bea;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  padding-top: 180px;
+}
+
+.art p {
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 38px;
+  text-align: center;
+}
+/* Faculty of Art end */
+
+/* Featured Courses start */
+.courses {
+  background-color: #abd5fd;
+}
+
+.courses h4 {
+  font-weight: bold;
+  font-size: 45px;
+  text-transform: capitalize;
+}
+
+.courses h6 {
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.5;
+  color: #2f2e2e;
+}
+
+.courses p {
+  color: #258bea;
+}
+
+.courses .classes {
+  margin-top: -5px;
+}
+
+.courses span {
+  color: #000000 !important;
+}
+
+.courses .badge {
+  border-radius: 24.9093px 0px 0px 24.9093px;
+  top: 300px;
+  box-shadow: 0 5px 7px rgba(0, 0, 0, 0.22);
+  font-size: 11px;
+  font-weight: 500;
+  padding: 5px 30px;
+  background-color: #2f2e2e;
+  /* padding: 10px 0 10px 30px; */
+  position: absolute;
+  right: -1px;
+  z-index: 9;
+
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 31px;
+}
+
+.courses .icon_1 {
+  position: absolute;
+  right: 30px;
+  bottom: 50px;
+}
+/* Featured Courses end */
+
+/*  Head of Faculty Speech start  */
+.head {
+  background-color: #e5e5e5;
+}
+
+.head .bg-light {
+  background: #ffffff;
+  box-shadow: 1px 3px 4px rgba(37, 139, 234, 0.17) !important;
+}
+
+.head span {
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 50px !important;
+}
+
+.head h5 {
+  font-size: 14px;
+  line-height: 50px;
+}
+.head p {
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+.head h4 {
+  font-weight: bold;
+  font-size: 45px;
+  line-height: 50px;
+}
+/*  Head of Faculty Speech end  */
+
+@media (max-width: 992px) {
+  .courses .badge {
+    position: absolute;
+    top: 170px !important;
+  }
+}
+
+@media (max-width: 1125px) {
+  .courses .badge {
+    position: absolute !important;
+    top: 240px !important;
+  }
+}
+
+@media (max-width: 844px) {
+  .courses .badge {
+    position: absolute !important;
+    top: 200px !important;
+  }
+}
+
+@media (max-width: 632px) {
+  .courses .badge {
+    position: absolute !important;
+    top: 470px !important;
+  }
+}
+
+@media (max-width: 693px) {
+  .courses .badge {
+    position: absolute !important;
+    top: 200px !important;
+  }
+}
+
+@media (max-width: 1088px) {
+  .courses .badge {
+    position: absolute !important;
+    top: 180px !important;
+  }
+}
+
+@media (max-width: 1125px) {
+  .faculties_list .icon {
+    position: absolute !important;
+    top: 300px;
+    left: 180px !important;
+  }
+}
+
+@media (max-width: 1090px) {
+  .faculties_list .icon {
+    position: absolute !important;
+    top: 300px;
+    left: 100px !important;
+  }
+}
+
+@media (max-width: 842px) {
+  .faculties_list .icon {
+    position: absolute !important;
+    top: 220px;
+    right: 200px !important;
+  }
+  .faculties_list a,
+  .faculties_list h5 {
+    font-size: 14px !important;
+  }
+}
+
+@media (max-width: 632px) {
+  .faculties_list .icon {
+    position: absolute !important;
+    top: 400px;
+  }
+}

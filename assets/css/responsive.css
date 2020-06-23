@@ -20,6 +20,12 @@
             margin-top: -50px;
         }
     }
+    .push-down {
+        margin-top: 5% !important;
+    }
+    .move-right {
+        float: right;
+    }
 
     @media all and (max-width: 900px){
         .heading {
