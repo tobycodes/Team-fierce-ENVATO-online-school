@@ -53,15 +53,15 @@ nav {
 	position: relative;*/
 
 .img_buttom_con{
-position: absolute;
-  right: -110px;
-  top: 0;
-  width: 80%; // this is an arbitrary depends on the design
+/* position: absolute; */
+  margin-left: 350px;
+  margin-top: -9px;
+  width: 80%; /* this is an arbitrary depends on the design */
   z-index: -1;
-	
 }
+
 .img_buttom{
-	height: 350px;
+	height: 380px;
 }
 
 /*position: absolute;
@@ -74,20 +74,19 @@ position: absolute;
   border-radius:40%;*/
 
 .img_top{
-  display: inline;
-  margin: 0 auto;
-  margin-left: -25%; //centers the image
+  /* display: inline; */
+  /* margin: 0 auto; */
   height: 100%;
   width: auto;
 }
 .img_top_con{
 	border: 10px solid #abd5fd;
-	width: 490px;
+	width: 480px;
     height: 510px;
     position: absolute;
     overflow: hidden;
     border-radius: 50%;
-    right: 9px;
+    right: -40px;
     top:0;
 }
 .icon-blue{
@@ -97,6 +96,11 @@ position: absolute;
 .text-blue{
 	color: #258bea!important;
 	font-family: 'Sitka', serif;
+	font-weight: bold;
+	font-size: 40px;
+}
+.text-text{
+	font-weight: bold;
 }
 .text-black{
 	color: #2f2e2e!important;
