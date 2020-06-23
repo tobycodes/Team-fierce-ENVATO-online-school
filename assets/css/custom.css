@@ -88,7 +88,7 @@
 }
 .about_showcase_img img {
     width: 90%;
-    height: 64%;
+    height: 62%;
     object-fit: fill;
     border-radius: 15px!important;
 }
@@ -147,6 +147,7 @@
 
 img.tile_image {
     width: 100%;
+    height: 150px;
     border-radius: 100px!important;
 }
 
@@ -178,14 +179,13 @@ img.tile_image {
 }
 
 .tile_text {
-    margin-top: 0px !important;
+    margin-top: 20px !important;
     font-size: 16px;
     font-family: Poppins, sans-serif;
-    margin: 10px;
 
 }
 .testimonial_text{
-    margin-top: -30px;
+    margin-top: 30px;
 }
 
 #sponsors {

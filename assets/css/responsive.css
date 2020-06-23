@@ -143,11 +143,7 @@ width: 100%;
         float: none;
     }
     .no_display_on_small{
-        display: none;
-        width: 0;
-        height: 0;
-        padding: 0;
-        margin: 0;
+        display: none!important;
     }
     .colored_overlay .card .card-img {
         width: 35%;
@@ -155,34 +151,6 @@ width: 100%;
         border-radius: 100px;
         margin-left: 35%!important;
     }
-.what_say {
-        color: #2F2E2E;
-        font-size: 19px !important;
-        font-weight: bold;
-        margin: -25px !important;
-    }
-    .tile_line{
-        display: none;
-    }
-    .tile_body {
-         float: none;
-        position: absolute;
-        right: 33%;
-        top: 132px;
-        font-weight: 700;
-        font-size: 25px;
-        font-family: Poppins, sans-serif;
-    }
-    .tile_text{
-font-size: 15px !important;
-    }
-        .tile1{
-            margin-right:0px !important;
-
-        }
-        .tile2{
-            margin-left: 0px !important;
-        }
     .carousel-indicators {
         bottom: 0px;
     }
@@ -200,61 +168,10 @@ font-size: 15px !important;
         margin-left: 0px;
     }
 
-
-    .for_small{
-    position: relative;
-    width: 27% !important;
-    min-height: 1px;
-    padding-right: 15px;
-    padding-left: 15px;
-    }
-
-
-
-
-
-    .testimonial_title{
-        font-size: 30px;
-        margin-bottom: 10px;
-    }
-    
-    .testimonial_title::after{
-        content: '';
-        width: 100px;
-        height: 3px;
-        position: absolute;
-        left: 0;
-        right: 0;
-        margin: auto;
-        margin-top: 30px;
-    }
-    
     .testimonial_user2{
         margin-top: 10px;
-    }
-    
-    .what_say {
-        padding-top: 50px;
-        /* position: absolute; */
-        margin-right: 50px;
-        font-weight: bolder;
-    
-    }
-    
-    .about_showcase .colored_overlay {
-        background: #ABD5FD;
-        /*position: absolute;*/
-        top: 0;
-        left: 0;
-        width: 100%;
-    }
-    
-    .colored_overlay .card {
-        background-color: #ABD5FD;
-        border: none !important;
-        font-family: Poppins, sans-serif;
-    
-    }
+    }    
+ 
     
     img.tile_image {
         width: 100%;
@@ -262,26 +179,12 @@ font-size: 15px !important;
         height: 350px;
     }
     
-    .tile_line {
-        position: absolute;
-        margin-top: 100px;
-        border-radius: 5px;
-        margin-left: 40px;
-    }
     
     .tile {
         margin-top: 40px;
         padding-left: 40px;
     }
     
-    .tile_body {
-        float: left;
-        position: relative;
-        right: 46px;
-        font-weight: 700;
-        font-size: 30px;
-        font-family: Poppins, sans-serif;
-    }
     
     .tile_text {
         margin-top: 0px !important;
@@ -290,10 +193,15 @@ font-size: 15px !important;
         margin: 10px;
     
     }
-    .testimonial_text{
-        margin-top: -30px;
+
+
+    .for_small{
+    position: relative;
+    width: 27% !important;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
     }
-    
 
     }
 
