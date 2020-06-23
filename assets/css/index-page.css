@@ -1,17 +1,17 @@
 body{
-	overflow-x: hidden!important;	
+	
 }
 /*header*/
-.bg_header{
+.bg_head{
 	background-color: #e5e5e5;
 }
 
 .navbar-collapse > ul{
-	margin-left: 15%;
+	margin-left: 20%;
 }
 .navbar-nav > li {
-  padding-left: 16px;
-  padding-right: 16px;
+  padding-left: 13px;
+  padding-right: 13px;
 }
 .nav-link {
   font-size: 18px;
@@ -54,7 +54,7 @@ nav {
 
 .img_buttom_con{
 position: absolute;
-  right: -160px;
+  right: -110px;
   top: 0;
   width: 80%; // this is an arbitrary depends on the design
   z-index: -1;
@@ -87,7 +87,7 @@ position: absolute;
     position: absolute;
     overflow: hidden;
     border-radius: 50%;
-    right: 70px;
+    right: 9px;
     top:0;
 }
 .icon-blue{
@@ -112,9 +112,7 @@ position: absolute;
 .mtop-17{
 	margin-top: 17%;
 }
-.mtop-40{
-	margin-top: 40%;
-}
+
 .bg_white{
 	background-color: #fff!important;
 }
@@ -186,8 +184,77 @@ position: absolute;
 .borda{
 	border: 1px solid #fff;
 }
+/** {
+   outline: 1px solid red;
+}*/
+.bg_image{
+	  position: relative;
+	  display: table;
+	  top: 0;
+	  left: 0;
+	  width: 100%;
+	  height: 100%;
+	  background-size: cover;
+	  background-repeat: no-repeat;
+	  background-position: center center;
+	  -webkit-transform: translateZ(0);
+	          transform: translateZ(0);
+	  will-change: transform;
+	}
+.text_center{
+	text-align: none;
+}
+/*footer*/
+.mtop-40{
+	padding: 25px;
+}
+/* large screens */
+@media (max-width: 1200px) {
+
+.navbar-collapse > ul{
+	margin-left: 14%;
+}
+.navbar-nav > li {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+}
+
+@media (max-width: 992px) {
+	 .bg_header{
+		background-color: #fff;
+	}
+	.navbar-collapse > ul{
+		margin-left: 14%;
+	}
+	.navbar-nav > li {
+	  padding-left: 5px;
+	  padding-right: 5px;
+	}
+	.landing{
+		line-height: 3;
+		margin-top: 10%;
+		margin-bottom: 10%;
+	}
+	.text_center{
+	text-align: center;
+	}
+	.border_side1{
+		border-left:0;
+		border-bottom:0;
+	}
+	.border_side2{
+		border-left:0;
+		border-top:0;
+	}
+}
 
 /* large screens */
-@media (max-width: 992px) {
- 
- }
+@media (min-width: 992px) {
+ .bg_header{
+	background-color: #e5e5e5;
+}
+.mtop-40{
+	margin-top: 30%;
+}
+}
