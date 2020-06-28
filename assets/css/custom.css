@@ -1,7 +1,7 @@
 
 #showcase {
     position: relative;
-    background: url("img/Rectangle1.svg") no-repeat;
+    background: url("../images/Rectangle1.svg") no-repeat;
     min-height: 600px;
 }
 
@@ -18,6 +18,16 @@
     border-right: 2px solid black;
     height: 100%;
 }
+.vertical-2 {
+    border-right: 1px solid white;
+}
+.horizontal {
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}
+.add-bg-color {
+    background-color: rgba(37, 139, 234, 0.1)
+}
 
 /* MAP SECTION */
 #map {
@@ -28,6 +38,23 @@
 /*ABOUT PAGE*/
 .sm {
     display: none;
+}
+.lg{
+    font-size: 30px;
+    margin-bottom: 35px;
+    padding-top: 15px;
+}
+.about_title{
+    color: #258BEA;
+}
+.about_title::after{
+    content: '';
+    width: 46px;
+    height: 3px;
+    position: absolute;
+    background-color: #258BEA;
+    left: 0;
+    margin-top: 34px;
 }
 
 .carousel-indicators > li {
@@ -40,61 +67,77 @@
     background-color: #258BEA!important;
 }
 
-.carousel-item {
-    margin-bottom: 6rem;
-}
-
-.about_showcase {
-    position: relative;
-    min-height: 500px;
-}
-
-.about_showcase .mb-3 {
-    border: none !important;
-}
-
-.about_showcase .line {
-    margin-top: 0px;
-    margin-bottom: 1rem;
-    float: left;
-    border-radius: 5px;
-    height: 3px;
-}
 
 .heading {
     color: #258BEA;
     text-align: center;
-    font-size: 36px;
-    margin-bottom: 3rem
+    font-size: 30px;
+    margin-bottom: 3rem;
+    margin-top: -100px;
 }
 
+.carousel-item {
+    margin-bottom: 6rem;
+}
 .subs {
-    font-size: 24px;
+    font-size: 18px;
+    letter-spacing: .1rem;
 }
 
-.about_showcase .card-body {
+.card-body {
     padding: 0rem;
 }
 
-.about_showcase .card-text {
-    margin-top: 30px;
-    font-size: 24px;
-    font-family: Poppins, sans-serif;
-
+.card_text_about2{
+    margin-top: 5px!important;
 }
 
-.about_showcase .card-img {
-    width: 80%;
-    height: 75%;
-    border-radius: 15px;
-    margin-left: 70px;
+.card_text_about1, .card_text_about2, .card_tile_text1, .card_tile_text2, .card_tile_text3{
+    font-size: 16px;
+    text-align: justify!important;
+}
+.about_showcase_img img {
+    width: 90%;
+    height: 62%;
+    object-fit: fill;
+    border-radius: 15px!important;
 }
 
 .numbering {
-    color: #E5E5E5;
-    font-size: 48px;
-    /*padding-left: 90px;*/
+    color: #b3b5b6a1;
+    font-size: 28px;
     text-align: center;
+    font-weight: bolder;
+    font-family: Poppins, sans-serif;
+}
+.testimonial_title{
+    color: #2F2E2E;
+    font-size: 30px;
+    font-family: Poppins, sans-serif;
+}
+
+.testimonial_title::after{
+    content: '';
+    width: 56px;
+    height: 3px;
+    position: absolute;
+    margin-left: 5px;
+    background-color: #2F2E2E;
+    left: 0;
+    margin-top: 34px;;
+}
+
+.testimonial_user2{
+    float: right;
+    margin-top: -250px;
+}
+
+.what_say {
+    color: #2F2E2E;
+    font-size: 30px;
+    font-family: Poppins, sans-serif;
+    font-weight: bolder;
+
 }
 
 .about_showcase .colored_overlay {
@@ -103,7 +146,6 @@
     top: 0;
     left: 0;
     width: 100%;
-    /*height: 100%;*/
 }
 
 .colored_overlay .card {
@@ -113,19 +155,10 @@
 
 }
 
-.colored_overlay .card .card-img {
-    width: 80%;
-    height: 76%;
-    border-radius: 100px;
-    margin-left: 0px !important;
-}
-
-.what_say {
-    color: #2F2E2E;
-    font-size: 19px;
-    font-weight: bold;
-    font-family: Poppins, sans-serif;
-
+img.tile_image {
+    width: 100%;
+    height: 150px;
+    border-radius: 100px!important;
 }
 
 .tile_line {
@@ -142,7 +175,8 @@
 }
 
 .tile {
-    margin-top: 65px;
+    margin-top: 40px;
+    padding-left: 40px;
 }
 
 .tile_body {
@@ -150,39 +184,46 @@
     position: relative;
     right: 46px;
     font-weight: 700;
-    font-size: 25px;
+    font-size: 30px;
     font-family: Poppins, sans-serif;
 }
 
 .tile_text {
-    margin-top: 0px !important;
-    font-size: 21px;
+    margin-top: 20px !important;
+    font-size: 16px;
     font-family: Poppins, sans-serif;
-    margin: 10px;
 
+}
+.testimonial_text{
+    margin-top: 30px;
 }
 
 #sponsors {
     position: relative;
     min-height: 286px;
     font-family: Poppins, sans-serif;
+    padding: 10px;
+    margin-bottom: 20px;
 
 }
 
 #sponsors .card-title {
-    color: #2F2E2E;
     text-align: center;
-    font-size: 36px;
     margin-bottom: 3rem;
-    margin-top: 2rem;
+    margin-top: 20px;
     font-family: Poppins, sans-serif;
+    color: #2F2E2E;
+    font-size: 30px;
+    font-family: Poppins, sans-serif;
+    font-weight: bolder;
 }
 
 #sponsors .card-img {
-    width: 62%;
-    height: auto;
+    width: 100%;
+    height: 50xp;
     border-radius: 0px;
     margin-left: 0px;
+
 }
 /*ABOUT PAGE ENDS*/
 

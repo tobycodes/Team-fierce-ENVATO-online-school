@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'Sitka Banner';
+    src: url('SitkaBanner.eot');
+    src: url('SitkaBanner.eot?#iefix') format('embedded-opentype'),
+        url('SitkaBanner.woff2') format('woff2'),
+        url('SitkaBanner.woff') format('woff'),
+        url('SitkaBanner.ttf') format('truetype'),
+        url('SitkaBanner.svg#SitkaBanner') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sitka Banner';
+    src: url('SitkaBanner_1.eot');
+    src: url('SitkaBanner_1.eot?#iefix') format('embedded-opentype'),
+        url('SitkaBanner_1.woff2') format('woff2'),
+        url('SitkaBanner_1.woff') format('woff'),
+        url('SitkaBanner_1.ttf') format('truetype'),
+        url('SitkaBanner_1.svg#SitkaBanner') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
